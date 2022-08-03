@@ -1,0 +1,243 @@
+.footer{
+    position: relative;
+    background: $colors-gray2;
+    .banner-area{
+        padding: 0;
+        a{
+            padding: 0;
+        }
+    }
+    .sc-help{
+        padding: 24px;
+        background: $colors-white;
+        margin-bottom: 10px;
+        .title{
+            display: block;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 16px;
+            color: $colors-gray8;
+            margin-bottom: 4px;
+        }
+    }
+    .group-flex5{
+        .title{
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            line-height: 21px;
+            font-weight: 700;
+            font-size: 18px;
+            color: $colors-gray8;
+            svg{
+                margin-right: 5px;
+            }
+        }
+        margin-bottom: 24px;
+        .desc{
+            font-size: 14px;
+            line-height: 150%;
+            color: $colors-gray6;
+            margin: 0px;
+        }
+    }
+    .group-flex6{
+        margin-bottom: 36px;
+        .chat-item{
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            box-sizing: border-box;
+            height: 58px;
+            font-size: 15px;
+            line-height: 16px;
+            color: #696969;
+            &:first-of-type{
+                color: $colors-coral100;
+            }
+            &:not(:last-of-type){
+                border-bottom: 1px solid $colors-gray3;
+            }
+        }
+    }
+    .group-flex7{
+        .chat-item{
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            box-sizing: border-box;
+            height: 58px;
+            font-size: 15px;
+            line-height: 16px;
+            color: #696969;
+            &:not(:last-of-type){
+                border-bottom: 1px solid $colors-gray3;
+            }
+        }
+    }
+    .group-flex8{
+        padding: 24px;
+        background: $colors-white;
+        .title{
+            display: block;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 16px;
+            color: $colors-gray8;
+        }
+    }    
+    .sc-sns{
+        margin-bottom: 40px;
+        .title{
+            margin-bottom: 14px;
+        }
+        .sns-list{
+            display: flex;
+        }
+        .sns-item{
+            width: 44px;
+            height: 44px;
+            & + li{
+                margin-left: 16px;
+            }
+        }
+        .link-sns{
+            &::after{
+                content: '';
+                display: inline-block;
+                vertical-align: top;
+                width: 100%;
+                height: 100%;
+                background-image: url(../images/youtube.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        }
+        .instagram{
+            &::after{
+                background-image: url(../images/instagram.png);
+            }
+        }
+        .blog{
+            &::after{
+                background-image: url(../images/blog.png);
+            }
+        }
+        .facebook{
+            &::after{
+                background-image: url(../images/facebook.png);
+            }
+        }
+    }
+    .sc-ask{
+        margin-bottom: 20px;
+        .title{
+            margin-bottom: 16px;
+        }
+        .contact-item{
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            box-sizing: border-box;
+            height: 58px;
+            font-size: 15px;
+            line-height: 16px;
+            color: #696969;
+            &:not(:last-of-type){
+                border-bottom: 1px solid $colors-gray3;
+            }
+        }
+    }
+    .sc-login{
+        .link-login{
+            display: block;
+            padding: 0px 10px;
+            cursor: pointer;
+            border: 1px solid $colors-gray4;
+            font-size: 14px;
+            line-height: 48px;
+            height: 48px;
+            text-align: center;
+            border-radius: 8px;
+            background: $colors-white;
+            color: #696969;
+        }
+    }
+    .corp-area{
+        padding: 14px 20px;
+        border-bottom: 1px solid $colors-gray3;
+    }
+    .corp-list{
+        display: flex;
+    }
+    .corp-item{
+        font-size: 13px;
+        line-height: 19px;
+        a{
+            color: #696969;
+        }
+        &:last-of-type{
+            &::after{
+                display: none;
+            }
+        }
+        &::after{
+            display: inline-block;
+            content: "|";
+            padding: 0px 10px;
+            color: $colors-gray3;
+        }
+    }
+    .addr-area{
+        padding: 16px 20px 20px;
+        line-height: 21px;
+        color: $colors-gray6;
+        font-size: 12px;
+        font-weight: 500;
+        a{
+            text-decoration: underline;
+        }
+    }
+    .download-area{
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 0px 20px 60px;
+        & > a{
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            font-size: 12px;
+            line-height: 18px;
+            color: $colors-gray6;
+            &::before{
+                content: '';
+                display: inline-block;
+                vertical-align: top;
+                width: 36px;
+                height: 36px;
+                margin: 0px 8px 0px 0px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        }
+    }
+    .link-ios{
+        &::before{
+            background-image: url(../images/ios-download.png);
+        }
+        &::after{
+            content: '';
+            display: block;
+            width: 1px;
+            height: 20px;
+            background: $colors-gray3;
+            margin: 0px 16px;
+        }
+    }
+    .link-playstore{
+        &::before{
+            background-image: url(../images/playstore-download.png);
+        }
+    }
+}

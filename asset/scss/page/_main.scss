@@ -1,0 +1,297 @@
+.container{
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.sc-visual{
+    margin-bottom: 20px;
+    .swiper{
+        position: relative;
+        &-pagination-bullet{
+            width: 9px;
+            height: 9px;
+            &:hover{
+                opacity: 1;
+            }
+        }
+        &-pagination-bullet-active{
+            background-color: #000;
+        }
+    }
+    .pagination{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        z-index: 2;
+        transform: translateX(-50%);
+        display: flex;
+        width: auto;
+        padding: 10px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+        margin: 0 6px;
+    }
+    
+}
+
+.sc-type1{
+    padding: 20px 0;
+    .group-flex3{
+        .product-name{
+            margin-top: 2px;
+            font-size: 16px;
+            line-height: 160%;
+        }
+        .price{
+            font-size: 14px;
+            em{
+                font-size: 20px;
+                line-height: 50px;
+            }
+        }
+    }
+    .group-flex4{
+        padding-top: 20px;
+        .current-sale{
+            font-size: 12px;
+            line-height: 150%;
+        }
+        .product-name{
+            margin-bottom: 5px;
+            font-size: 12px;
+            line-height: 150%;
+        }
+        .price{
+            font-size: 12px;
+            line-height: 150%;
+            em{
+                font-size: 16px;
+                line-height: 18px;
+            }
+        }
+    }
+    .product-list{
+        display: flex;
+        justify-content: space-between;
+    }
+    .product-item{
+        width: calc((100% - 40px) / 3);
+    }
+}
+
+.sc-type2{
+    padding: 20px 0;
+    .product-list{
+        display: flex;
+        justify-content: space-between;
+    }
+    .product-item{
+        width: calc((100% - 20px) / 2);
+    }
+    .current-sale{
+        font-size: 13px;
+        line-height: 160%;
+    }
+    .product-name{
+        margin: 2px 0 5px 0;
+        font-size: 14px;
+        line-height: 160%;
+    }
+    .price{
+        font-size: 13px;
+        line-height: 160%;
+        em{
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+}
+
+.banner-area{
+    padding: 20px 0;
+    a{
+        display: block;
+        padding: 0 20px;
+    }
+}
+
+.sc-type3{
+    padding: 20px 0;
+    .product-list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .product-item{
+        width: calc((100% - 20px) / 2);
+        &:nth-child(n+3){
+            margin-top: 20px;
+        }
+    }
+    .current-sale{
+        font-size: 13px;
+        line-height: 160%;
+    }
+    .product-name{
+        margin-bottom: 4px;
+        font-size: 14px;
+        line-height: 160%;
+    }
+    .price{
+        font-size: 13px;
+        line-height: 160%;
+        em{
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+}
+
+.sc-type4{
+    .product-name{
+        margin-bottom: 4px;
+        font-size: 16px;
+        line-height: 160%;
+    }
+    .price{
+        font-size: 14px;
+        line-height: 160%;
+        span{
+            font-size: 20px;
+            line-height: 150%;
+            font-weight: 700;
+        }
+        del{
+            color: $colors-gray6;
+        }
+    }
+    .current-sale{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+    }
+}
+
+.sc-type5{
+    padding: 20px 0;
+    .product-list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .product-item{
+        width: calc((100% - 40px) / 3);
+        &:nth-child(n+4){
+            margin-top: 20px;
+        }
+    }
+    .product-name{
+        margin-bottom: 4px;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .price{
+        font-size: 12px;
+        line-height: 150%;
+        em{
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+    .current-sale{
+        font-size: 12px;
+        line-height: 150%;
+    }
+}
+
+.sc-recipe{
+    padding: 20px 0;
+    .slide2{
+        padding: 10px 0 24px 20px;
+        &:hover{
+            .btn{
+                opacity: 0.85;
+            }
+        }
+    }
+    .swiper-wrapper{
+        padding-bottom: 26px;
+    }
+    .swiper-slide{
+        width: calc(70% + 20px);
+        a{
+            position: relative;
+            &::after{
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 2;
+                border-radius: 24px;
+                background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .info-box{
+        position: absolute;
+        bottom: 24px;
+        left: 20px;
+        z-index: 3;
+        width: calc(100% - 40px);
+        color: $colors-white;
+    }
+    .recipe-tit{
+        padding-bottom: 10px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 150%;
+    }
+    .id,
+    .more{
+        font-size: 16px;
+        line-height: 160%;
+    }
+    .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
+        bottom: 0;
+        height: 2px;
+        background-color: $colors-gray2;
+        position: relative;
+    }
+    .swiper-scrollbar > .swiper-scrollbar-drag{
+        background-color: $colors-gray9;
+    }
+    .btn{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 5;
+        display: inline-flex;
+        width: 44px;
+        height: 44px;
+        padding: 8px;
+        opacity: 0;
+        transition: opacity .5s;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1), 2px 4px 10px rgba(0, 0, 0, 0.1);
+        background-color: rgba($color: #ffffff, $alpha: 0.9);
+        color: $colors-gray9;
+        border-radius: 50%;
+        &.prev{
+            left: 40px;
+        }
+        &.next{
+            right: 40px;
+        }
+        &:disabled{
+            color: $colors-gray5;
+        }
+        &:hover{
+            opacity: 1;
+        }
+    }
+}

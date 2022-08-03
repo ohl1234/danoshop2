@@ -1,0 +1,54 @@
+{
+    "veganMain":[
+        {
+            "no":1,
+            "url":"#",
+            "thumbImg":"./asset/images/veganbox.png",
+            "freeDelivery":true,
+            "new":true,
+            "sale":true,
+            "prdName":"다노 플랜트베이스드 채식도시락",
+            "priceOrigin": "45,000",
+            "priceCurrent":"30,000",
+            "priceDiscount":"14%"
+        }
+    ],
+    "veganList":[
+        {
+            "no":1,
+            "url":"#",
+            "thumbImg":"./asset/images/lunchbox-thumb1.png",
+            "freeDelivery":true,
+            "new":true,
+            "sale":true,
+            "prdName":"다노 플랜트베이스드 채식도시락",
+            "priceOrigin": "45,000",
+            "priceCurrent":"30,000",
+            "priceDiscount":"14%"
+        },
+        {
+            "no":1,
+            "url":"#",
+            "thumbImg":"./asset/images/lunchbox-thumb2.png",
+            "freeDelivery":true,
+            "new":true,
+            "sale":true,
+            "prdName":"다노 플랜트베이스드 채식도시락",
+            "priceOrigin": "45,000",
+            "priceCurrent":"30,000",
+            "priceDiscount":"14%"
+        },
+        {
+            "no":1,
+            "url":"#",
+            "thumbImg":"./asset/images/lunchbox-thumb3.png",
+            "freeDelivery":true,
+            "new":true,
+            "sale":true,
+            "prdName":"다노 플랜트베이스드 채식도시락",
+            "priceOrigin": "45,000",
+            "priceCurrent":"30,000",
+            "priceDiscount":"14%"
+        }
+    ]
+}

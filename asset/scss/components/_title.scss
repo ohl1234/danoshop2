@@ -1,0 +1,42 @@
+.title-box{
+    position: relative;
+    padding: 16px 20px;
+    .title{
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        line-height: 150%;
+        font-weight: 700;
+        color: $colors-gray9;
+        word-break: keep-all;
+        @include ellip(150%, 2);
+        margin-bottom: 4px;
+        img{
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin-left: 1px;
+            vertical-align: -4px;
+            object-fit: contain;
+        }
+    }
+    .desc{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 150%;
+        font-weight: 500;
+        color: $colors-gray6;
+        img{
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            vertical-align: -4px;
+        }
+    }
+    .link-more{
+        position: absolute;
+        right: 16px;
+        top: 20px;
+    }
+}

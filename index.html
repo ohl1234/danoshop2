@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>믿고 먹는 영양성분, 다노샵</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./asset/images/favicon/danoshop_favicon.ico">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="group-flex1">
+                <div class="logo-area">
+                    <h1 class="logo">
+                        <a href="#" class="link-logo">
+                            <span class="blind">다노샵</span>
+                            <svg width="106" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#DanoshopLogo_svg__clip0_6951_109646)" fill="#000">
+                                    <path d="M6.52 6.468H.674a.688.688 0 00-.674.7v11.434c0 .515.402.933.9.933h5.62c2.98 0 5.396-2.508 5.396-5.6v-1.867c0-3.093-2.416-5.6-5.396-5.6zm2.248 7c0 1.547-1.207 2.8-2.698 2.8H4.047c-.497 0-.9-.417-.9-.933V9.968c0-.129.101-.233.225-.233H6.07c1.49 0 2.698 1.253 2.698 2.8v.933zM35.521 6.7v7.13c0 .11-.135.16-.2.073l-5.443-7.17a.666.666 0 00-.53-.266h-2.595a.23.23 0 00-.225.233v12.717c0 .064.05.116.113.116h2.81a.23.23 0 00.225-.233v-7.13c0-.11.135-.16.2-.072l5.443 7.168a.666.666 0 00.53.268h2.595a.23.23 0 00.225-.234V6.933a.459.459 0 00-.45-.466h-2.473a.23.23 0 00-.225.233zM47.88 6h-2.248c-2.98 0-5.396 2.507-5.396 5.6v2.8c0 3.093 2.416 5.6 5.396 5.6h2.249c2.98 0 5.395-2.507 5.395-5.6v-2.8c0-3.093-2.415-5.6-5.395-5.6zm2.249 7.933c0 1.547-1.208 2.8-2.698 2.8h-1.35c-1.49 0-2.697-1.253-2.697-2.8v-1.866c0-1.547 1.208-2.8 2.698-2.8h1.349c1.49 0 2.698 1.253 2.698 2.8v1.866zM25.454 18.874l-5.215-11.9a.449.449 0 00-.41-.274h-2.705a.225.225 0 00-.205.137L11.5 19.204c-.068.154.041.33.205.33h2.949a.45.45 0 00.415-.286l.773-1.906a.225.225 0 01.207-.143l5.002.001c.09 0 .172.057.208.143l.715 1.762c.105.26.35.428.621.428h2.451c.327 0 .545-.35.41-.66zM19.8 14.166h-2.5c-.081 0-.136-.085-.104-.162l1.146-2.827a.222.222 0 01.415 0l1.147 2.827c.03.077-.024.162-.104.162zM101.447 6.47H96.22a.115.115 0 00-.112.116V19.42c0 .065.05.117.112.117h1.35a.115.115 0 00.112-.117v-3.5c0-.065.05-.117.112-.117h3.71c2.495 0 4.515-2.108 4.496-4.702-.018-2.573-2.073-4.631-4.553-4.631zm.012 7.7h-3.665a.115.115 0 01-.112-.117V8.22c0-.065.05-.117.112-.117h3.71c1.627 0 2.947 1.387 2.922 3.08-.025 1.665-1.363 2.987-2.967 2.987zM63.255 12.312l-1.91-.385c-1.63-.3-2.455-1-2.455-2.08 0-1.415 1.186-2.19 3.021-2.19 1.904 0 3.072.73 3.377 2.372l.005.028c.01.056.057.095.11.095h1.363c.068 0 .12-.061.112-.131l-.005-.04c-.155-1.264-.734-2.296-1.675-2.984-.873-.637-2.041-.834-3.38-.834-2.757 0-4.61 1.427-4.61 3.76 0 1.887 1.245 3.122 3.6 3.572l2.188.442c1.473.278 2.252.998 2.252 2.082 0 1.472-1.237 2.284-3.152 2.284-1.105 0-2-.135-2.66-.678-.642-.528-1.044-1.297-1.197-2.284l-.004-.03a.114.114 0 00-.111-.097H56.76c-.067 0-.12.06-.112.129l.004.039c.15 1.426.72 2.598 1.653 3.39.927.79 2.218 1.066 3.735 1.066 1.416 0 2.624-.248 3.492-.98.877-.742 1.34-1.776 1.34-2.993.002-1.883-1.216-3.079-3.618-3.553zM78.346 6.587v5.832c0 .065-.05.117-.113.117h-7.42a.115.115 0 01-.112-.117V6.587a.115.115 0 00-.112-.117h-1.35a.115.115 0 00-.112.117V19.42c0 .065.05.117.113.117h1.349a.115.115 0 00.112-.117v-5.134c0-.064.05-.117.113-.117h7.42c.061 0 .112.053.112.117v5.134c0 .065.05.117.112.117h1.349a.115.115 0 00.112-.117V6.587a.115.115 0 00-.112-.117h-1.35a.115.115 0 00-.111.117zM88.688 7.87c2.108 0 3.822 1.78 3.822 3.967v2.333c0 2.187-1.714 3.967-3.822 3.967H87.34c-2.107 0-3.822-1.78-3.822-3.967v-2.333c0-2.187 1.715-3.967 3.822-3.967h1.35zm0-1.633H87.34c-2.98 0-5.396 2.507-5.396 5.6v2.333c0 3.093 2.416 5.6 5.396 5.6h1.35c2.98 0 5.395-2.507 5.395-5.6v-2.333c0-3.093-2.416-5.6-5.396-5.6z"></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="DanoshopLogo_svg__clip0_6951_109646">
+                                        <path fill="#fff" transform="translate(0 6)" d="M0 0h106v14H0z"></path>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </h1>
+                </div>
+                <div class="search-area">
+                    <button type="button" class="btn-search">
+                        <span class="blind">검색버튼</span>
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.3888 4.5C15.2068 4.5 18.2777 7.50731 18.2777 11.1891C18.2777 13.1815 17.3812 14.9727 15.9519 16.2007C15.7017 16.4157 15.4353 16.6132 15.1546 16.7915C14.909 16.9475 14.6525 17.0887 14.3865 17.2137C13.4812 17.6392 12.4646 17.8783 11.3888 17.8783C7.57088 17.8783 4.5 14.871 4.5 11.1891C4.5 7.50731 7.57088 4.5 11.3888 4.5Z" stroke="currentColor"></path><path d="M16.2778 16.4053L21 20.9999" stroke="currentColor" stroke-linecap="round"></path>
+                        </svg>
+                    </button>
+                    <div class="search-wrap">
+                        <div class="search-container">
+                            <form action="#" method="get">
+                                <fieldset>
+                                    <legend class="blind">검색영역</legend>
+                                    <div class="search-box">
+                                        <input type="text" class="input-text" placeholder="다노닭">
+                                        <button type="submit" class="btn-submit"><span class="blind">검색</span></button>
+                                        <button type="button" class="btn-close">
+                                            <span class="blind">닫기</span>
+                                        </button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="view-container">
+                            <span class="best">지금 인기있는</span>
+                            <ul class="keyword-list">
+                                <li class="keyword-item">
+                                    <a href="#" class="link-keyword">#매일 점심 고민 끝</a>
+                                </li>
+                                <li class="keyword-item">
+                                    <a href="#" class="link-keyword">#운동 전후 뭐 드세요?</a>
+                                </li>
+                                <li class="keyword-item">
+                                    <a href="#" class="link-keyword">#아침 굶지 마세요</a>
+                                </li>
+                                <li class="keyword-item">
+                                    <a href="#" class="link-keyword">#건강간식 여기 다 있어요</a>
+                                </li>
+                                <li class="keyword-item">
+                                    <a href="#" class="link-keyword">#브런치? 이걸로 만들어보세요</a>
+                                </li>
+                                <li class="keyword-item">
+                                    <a href="#" class="link-keyword">#분식도 건강하게</a>
+                                </li>
+                                <li class="keyword-item">
+                                    <a href="#" class="link-keyword">#건강한 마실거리 다 모아 봤어요</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="login-area">
+                    <a href="#" class="link-login">
+                        <span class="blind">로그인</span>
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="13" cy="8.99768" r="5.17593" stroke="currentColor" stroke-width="1.08333"></circle><path d="M22.75 22.7199C22.75 23.019 22.9925 23.2616 23.2917 23.2616C23.5908 23.2616 23.8333 23.019 23.8333 22.7199H22.75ZM2.16667 22.7199C2.16667 23.019 2.40918 23.2616 2.70833 23.2616C3.00749 23.2616 3.25 23.019 3.25 22.7199H2.16667ZM8.99769 16.9722H17.0023V15.8889H8.99769V16.9722ZM17.0023 16.9722C20.1767 16.9722 22.75 19.5455 22.75 22.7199H23.8333C23.8333 18.9472 20.775 15.8889 17.0023 15.8889V16.9722ZM3.25 22.7199C3.25 19.5455 5.82333 16.9722 8.99769 16.9722V15.8889C5.22502 15.8889 2.16667 18.9472 2.16667 22.7199H3.25Z" fill="currentColor"></path></svg>
+                    </a>
+                    <a href="#" class="link-shopping">
+                        <span class="blind">장바구니</span>
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.5 3.15385H1.84532C2.83184 3.15385 3.69833 3.80908 3.96706 4.75828L6.64833 14.2289C6.91706 15.1781 7.78355 15.8333 8.77006 15.8333H18.7188C19.7285 15.8333 20.6093 15.1475 20.8567 14.1686L22.306 8.43529C22.6581 7.04214 21.6051 5.68974 20.1681 5.68974H8.64103" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.7948 19.6923C10.7948 18.7789 10.0544 18.0385 9.14097 18.0385C8.22757 18.0385 7.48712 18.7789 7.48712 19.6923C7.48712 20.6057 8.22757 21.3462 9.14097 21.3462C10.0544 21.3462 10.7948 20.6057 10.7948 19.6923Z" stroke="currentColor"></path><path d="M20.0257 19.6923C20.0257 18.7789 19.2852 18.0385 18.3718 18.0385C17.4584 18.0385 16.718 18.7789 16.718 19.6923C16.718 20.6057 17.4584 21.3462 18.3718 21.3462C19.2852 21.3462 20.0257 20.6057 20.0257 19.6923Z" stroke="currentColor"></path></svg>
+                        <span class="count">0</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="group-flex2">
+            <nav class="gnb-area">
+                <ul class="gnb-list">
+                    <li class="gnb-item active"><a href="#">홈</a></li>
+                    <li class="gnb-item event"><a href="#">스토리</a></li>
+                    <li class="gnb-item event"><a href="#"><img src="./asset/images/vegan.png" alt="비건">비건</a</li>
+                    <li class="gnb-item"><a href="#">인기상품</a></li>
+                    <li class="gnb-item"><a href="#">다노메이드</a></li>
+                    <li class="gnb-item"><a href="#">신상품</a></li>
+                    <li class="gnb-item"><a href="#">식단</a></li>
+                    <li class="gnb-item"><a href="#"><img src="./asset/images/bake.png" alt="비건">베이커리</a</li>
+                    <li class="gnb-item"><a href="#"><img src="./asset/images/workout.png" alt="비건">운동</a</li>
+                    <li class="gnb-item"><a href="#">분식/간식</a></li>
+                    <li class="gnb-item"><a href="#">특가</a></li>
+                    <li class="gnb-item"><a href="#">새벽배송</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main class="container">
+            <section class="sc-visual">
+                <h2 class="blind">메인 슬라이드 배너 영역</h2>
+                <div class="slide slide1">
+                    <div class="content">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/main-slide1.png" alt="바쁜 현대인을 위한 한 끼 쉽고 간편하게 도시락 드세요">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/main-slide2.png" alt="나와 지구의 건강을 생각해요 맛있어서 추천하는 다노 비건식 모음">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/main-slide3.png" alt="간단하고 맛있는 레시피까지! 제철이 체질 7월:복숭아편">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/main-slide4.png" alt="다노의 서비스를 기획하는 PM팀 크루의 자꾸 손이 가는 추천템">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/main-slide5.png" alt="CLEAERANCE SALE 할인할 때  빨리 살템 망설일 시간에 클릭!">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/main-slide6.png" alt="신입 다노블리를 위한 첫 구매 추천템">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/main-slide7.png" alt="딩동! 당근과 채찍 후기 도착~ 솔직 후기 남겨주면 만 원 쿠폰 드려요!">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/main-slide8.png" alt="구매 금액대별 번개 지급까지! CHAI 1만원 이상 첫 결제 2,000원 즉시 할인">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/main-slide9.png" alt="더울수록 잘 챙겨드세요 밥 차리기 귀찮을 때 가볍게 한 끼 뚝딱!">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-type1">
+                <div class="title-box">
+                    <h2 class="title">NEW! 쉽고 맛있는 채식도시락<img src="./asset/images/salad.png" alt="샐러드아이폰이모지"></h2>
+                    <p class="desc">비건음식 러버라면 추천해요</p>
+                    <a href="#" class="link-more">
+                        <span class="blind">바로가기</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.00001 3.99999L17 12L9.00001 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    </a>
+                </div>
+                <div class="group-flex3">
+                    <div class="product-main">
+                        <div class="thumb-box">
+                            <a href="#"><img src="./asset/images/veganbox.png" alt="다노 플랜트베이스드 채식도시락"></a>
+                            <div class="badge-box">
+                                <span class="new">new</span>
+                            </div>
+                            <button class="cart">
+                                <span class="blind">장바구니 추가</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4H2.8132C3.70795 4 4.49383 4.59428 4.73757 5.45519L7.16941 14.0448C7.41315 14.9057 8.19903 15.5 9.09378 15.5H18.1171C19.0329 15.5 19.8316 14.878 20.0561 13.9901L21.3705 8.79014C21.6899 7.52659 20.7348 6.3 19.4315 6.3H15.9767" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9302 19C10.9302 18.1716 10.2586 17.5 9.43018 17.5C8.60175 17.5 7.93018 18.1716 7.93018 19C7.93018 19.8284 8.60175 20.5 9.43018 20.5C10.2586 20.5 10.9302 19.8284 10.9302 19Z" stroke="currentColor"></path><path d="M19.3024 19C19.3024 18.1716 18.6308 17.5 17.8024 17.5C16.9739 17.5 16.3024 18.1716 16.3024 19C16.3024 19.8284 16.9739 20.5 17.8024 20.5C18.6308 20.5 19.3024 19.8284 19.3024 19Z" stroke="currentColor"></path><path d="M11 3.8V8.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.5 6.3H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            </button>
+                        </div>
+                        <a href="#" class="info-box">
+                            <em class="free-delivery">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-delivery"><path d="M16.1504 7.39453L21.3902 7.39453" stroke="currentColor" stroke-linecap="round"></path><path d="M17.2314 10.168H22.4385" stroke="currentColor" stroke-linecap="round"></path><path d="M4.07812 17.9218H2.91627C2.3056 17.9218 1.81055 17.4268 1.81055 16.8161V12.2799C1.81055 12.0391 1.88912 11.8049 2.03433 11.6129L4.11783 8.85774C4.32682 8.58137 4.65328 8.41895 4.99977 8.41895H7.88768" stroke="currentColor"></path><path d="M7.30464 18.7162C7.30464 17.8002 6.56206 17.0576 5.64605 17.0576C4.73003 17.0576 3.98746 17.8002 3.98746 18.7162C3.98746 19.6322 4.73003 20.3748 5.64605 20.3748C6.56206 20.3748 7.30464 19.6322 7.30464 18.7162Z" stroke="currentColor" stroke-linecap="round"></path><path d="M2.06955 12H5.90504" stroke="currentColor" stroke-linecap="round"></path><path d="M19.4333 4.6875H8.98073C8.37005 4.6875 7.875 5.18255 7.875 5.79323V17.9216" stroke="currentColor" stroke-linecap="round"></path><path d="M18.293 17.9215H19.3814C19.9921 17.9215 20.4871 17.4265 20.4871 16.8158V12.7969" stroke="currentColor" stroke-linecap="round"></path><path d="M18.3279 18.7162C18.3279 17.8002 17.5853 17.0576 16.6693 17.0576C15.7533 17.0576 15.0107 17.8002 15.0107 18.7162C15.0107 19.6322 15.7533 20.3748 16.6693 20.3748C17.5853 20.3748 18.3279 19.6322 18.3279 18.7162Z" stroke="currentColor" stroke-linecap="round"></path><path d="M7.20312 17.9219L14.9497 17.9219" stroke="currentColor"></path>
+                                </svg>
+                                무료배송
+                            </em>
+                            <p class="product-name">다노 플랜트베이스드 채식도시락</p>
+                            <span class="price">
+                                <em>45,000</em>원
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="group-flex4">
+                    <ul class="product-list">
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/lunchbox-thumb1.png" alt="다노 다노한끼 컬리플라워 도시락"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                </div>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">다노 다노한끼 컬리플라워 도시락</p>
+                                <em class="current-sale">
+                                    12%
+                                    <del>34,500</del>
+                                </em>
+                                <span class="price">
+                                    <em>30,360</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/lunchbox-thumb2.png" alt="다노 다노한끼 닭가슴살 도시락"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                </div>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">다노 다노한끼 컬리플라워 도시락</p>
+                                <em class="current-sale">
+                                    7%
+                                    <del>30,100</del>
+                                </em>
+                                <span class="price">
+                                    <em>27,900</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/lunchbox-thumb3.png" alt="다노 다노한끼 시즌4 저당 곤약 도시락"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                </div>
+                            </div>
+                            <a href="#" class="info-box">
+                                <span class="product-name">다노 다노한끼 시즌4 저당 곤약 도시락</span>
+                                <em class="current-sale">
+                                    5%
+                                    <del>31,500</del>
+                                </em>
+                                <span class="price">
+                                    <em>29,800</em>원
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sc-type2">
+                <div class="title-box">
+                    <h2 class="title">쓴맛 없고 싱싱한 샐러드<img src="./asset/images/greenlove.png" alt="초록하트아이폰이모지"></i></h2>
+                    <p class="desc">건강하고 가볍게 식단 챙겨요</p>
+                </div>
+                <div class="group-flex3">
+                    <ul class="product-list">
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/salad-thumb1.png" alt="다노 그린믹스샐러드 / 파프리카믹스샐러드"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                </div>
+                                <button class="cart">
+                                    <span class="blind">장바구니 추가</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4H2.8132C3.70795 4 4.49383 4.59428 4.73757 5.45519L7.16941 14.0448C7.41315 14.9057 8.19903 15.5 9.09378 15.5H18.1171C19.0329 15.5 19.8316 14.878 20.0561 13.9901L21.3705 8.79014C21.6899 7.52659 20.7348 6.3 19.4315 6.3H15.9767" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9302 19C10.9302 18.1716 10.2586 17.5 9.43018 17.5C8.60175 17.5 7.93018 18.1716 7.93018 19C7.93018 19.8284 8.60175 20.5 9.43018 20.5C10.2586 20.5 10.9302 19.8284 10.9302 19Z" stroke="currentColor"></path><path d="M19.3024 19C19.3024 18.1716 18.6308 17.5 17.8024 17.5C16.9739 17.5 16.3024 18.1716 16.3024 19C16.3024 19.8284 16.9739 20.5 17.8024 20.5C18.6308 20.5 19.3024 19.8284 19.3024 19Z" stroke="currentColor"></path><path d="M11 3.8V8.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.5 6.3H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                            <a href="#" class="info-box">
+                                <em class="free-delivery">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-delivery"><path d="M16.1504 7.39453L21.3902 7.39453" stroke="currentColor" stroke-linecap="round"></path><path d="M17.2314 10.168H22.4385" stroke="currentColor" stroke-linecap="round"></path><path d="M4.07812 17.9218H2.91627C2.3056 17.9218 1.81055 17.4268 1.81055 16.8161V12.2799C1.81055 12.0391 1.88912 11.8049 2.03433 11.6129L4.11783 8.85774C4.32682 8.58137 4.65328 8.41895 4.99977 8.41895H7.88768" stroke="currentColor"></path><path d="M7.30464 18.7162C7.30464 17.8002 6.56206 17.0576 5.64605 17.0576C4.73003 17.0576 3.98746 17.8002 3.98746 18.7162C3.98746 19.6322 4.73003 20.3748 5.64605 20.3748C6.56206 20.3748 7.30464 19.6322 7.30464 18.7162Z" stroke="currentColor" stroke-linecap="round"></path><path d="M2.06955 12H5.90504" stroke="currentColor" stroke-linecap="round"></path><path d="M19.4333 4.6875H8.98073C8.37005 4.6875 7.875 5.18255 7.875 5.79323V17.9216" stroke="currentColor" stroke-linecap="round"></path><path d="M18.293 17.9215H19.3814C19.9921 17.9215 20.4871 17.4265 20.4871 16.8158V12.7969" stroke="currentColor" stroke-linecap="round"></path><path d="M18.3279 18.7162C18.3279 17.8002 17.5853 17.0576 16.6693 17.0576C15.7533 17.0576 15.0107 17.8002 15.0107 18.7162C15.0107 19.6322 15.7533 20.3748 16.6693 20.3748C17.5853 20.3748 18.3279 19.6322 18.3279 18.7162Z" stroke="currentColor" stroke-linecap="round"></path><path d="M7.20312 17.9219L14.9497 17.9219" stroke="currentColor"></path></svg>   
+                                    무료배송
+                                </em>
+                                <p class="product-name">다노 그린믹스샐러드 / 파프리카믹스샐러드</p>
+                                <em class="current-sale">
+                                    11%
+                                    <del>18,900</del>
+                                </em>
+                                <span class="price">
+                                    <em>16,900</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/salad-thumb2.png" alt="무농약 친환경 유러피안 샐러드 세트 (400g, 800g)"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                </div>
+                                <button class="cart">
+                                    <span class="blind">장바구니 추가</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4H2.8132C3.70795 4 4.49383 4.59428 4.73757 5.45519L7.16941 14.0448C7.41315 14.9057 8.19903 15.5 9.09378 15.5H18.1171C19.0329 15.5 19.8316 14.878 20.0561 13.9901L21.3705 8.79014C21.6899 7.52659 20.7348 6.3 19.4315 6.3H15.9767" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9302 19C10.9302 18.1716 10.2586 17.5 9.43018 17.5C8.60175 17.5 7.93018 18.1716 7.93018 19C7.93018 19.8284 8.60175 20.5 9.43018 20.5C10.2586 20.5 10.9302 19.8284 10.9302 19Z" stroke="currentColor"></path><path d="M19.3024 19C19.3024 18.1716 18.6308 17.5 17.8024 17.5C16.9739 17.5 16.3024 18.1716 16.3024 19C16.3024 19.8284 16.9739 20.5 17.8024 20.5C18.6308 20.5 19.3024 19.8284 19.3024 19Z" stroke="currentColor"></path><path d="M11 3.8V8.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.5 6.3H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                            <a href="#" class="info-box">
+                                <em class="free-delivery">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-delivery"><path d="M16.1504 7.39453L21.3902 7.39453" stroke="currentColor" stroke-linecap="round"></path><path d="M17.2314 10.168H22.4385" stroke="currentColor" stroke-linecap="round"></path><path d="M4.07812 17.9218H2.91627C2.3056 17.9218 1.81055 17.4268 1.81055 16.8161V12.2799C1.81055 12.0391 1.88912 11.8049 2.03433 11.6129L4.11783 8.85774C4.32682 8.58137 4.65328 8.41895 4.99977 8.41895H7.88768" stroke="currentColor"></path><path d="M7.30464 18.7162C7.30464 17.8002 6.56206 17.0576 5.64605 17.0576C4.73003 17.0576 3.98746 17.8002 3.98746 18.7162C3.98746 19.6322 4.73003 20.3748 5.64605 20.3748C6.56206 20.3748 7.30464 19.6322 7.30464 18.7162Z" stroke="currentColor" stroke-linecap="round"></path><path d="M2.06955 12H5.90504" stroke="currentColor" stroke-linecap="round"></path><path d="M19.4333 4.6875H8.98073C8.37005 4.6875 7.875 5.18255 7.875 5.79323V17.9216" stroke="currentColor" stroke-linecap="round"></path><path d="M18.293 17.9215H19.3814C19.9921 17.9215 20.4871 17.4265 20.4871 16.8158V12.7969" stroke="currentColor" stroke-linecap="round"></path><path d="M18.3279 18.7162C18.3279 17.8002 17.5853 17.0576 16.6693 17.0576C15.7533 17.0576 15.0107 17.8002 15.0107 18.7162C15.0107 19.6322 15.7533 20.3748 16.6693 20.3748C17.5853 20.3748 18.3279 19.6322 18.3279 18.7162Z" stroke="currentColor" stroke-linecap="round"></path><path d="M7.20312 17.9219L14.9497 17.9219" stroke="currentColor"></path></svg>
+                                    무료배송
+                                </em>
+                                <p class="product-name">무농약 친환경 유러피안 샐러드 세트 (400g, 800g)</p>
+                                <span class="price">
+                                    <em>16,900</em>원
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div class="banner-area">
+                <a href="#" class="link-banner">
+                    <img src="./asset/images/banner-thumb1.png" alt="비주얼 백 점 활용도 만 점 나에게 딱 맞는 다노 홈트템">
+                </a>
+            </div>
+            <section class="sc-type3">
+                <div class="title-box">
+                    <h2 class="title">일어나...운동해야지...<img src="./asset/images/workout.png" alt="운동아이콘이모지"></h2>
+                    <p class="desc">홈트 초보도 운동이 쉬워지는 필수템</p>
+                    <a href="#" class="link-more">
+                        <span class="blind">바로가기</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.00001 3.99999L17 12L9.00001 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    </a>
+                </div>
+                <div class="group-flex3">
+                    <ul class="product-list">
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/product-thumb1.png" alt="다노 더블 폼롤러"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                    <span class="new">new</span>
+                                </div>
+                                <button class="cart">
+                                    <span class="blind">장바구니 추가</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4H2.8132C3.70795 4 4.49383 4.59428 4.73757 5.45519L7.16941 14.0448C7.41315 14.9057 8.19903 15.5 9.09378 15.5H18.1171C19.0329 15.5 19.8316 14.878 20.0561 13.9901L21.3705 8.79014C21.6899 7.52659 20.7348 6.3 19.4315 6.3H15.9767" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9302 19C10.9302 18.1716 10.2586 17.5 9.43018 17.5C8.60175 17.5 7.93018 18.1716 7.93018 19C7.93018 19.8284 8.60175 20.5 9.43018 20.5C10.2586 20.5 10.9302 19.8284 10.9302 19Z" stroke="currentColor"></path><path d="M19.3024 19C19.3024 18.1716 18.6308 17.5 17.8024 17.5C16.9739 17.5 16.3024 18.1716 16.3024 19C16.3024 19.8284 16.9739 20.5 17.8024 20.5C18.6308 20.5 19.3024 19.8284 19.3024 19Z" stroke="currentColor"></path><path d="M11 3.8V8.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.5 6.3H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">다노 더블 폼롤러</p>
+                                <em class="current-sale">
+                                    31%
+                                    <del>65,000</del>
+                                </em>
+                                <span class="price">
+                                    <em>45,000</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/product-thumb2.png" alt="다노 힙밴드"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                    <span class="new">new</span>
+                                </div>
+                                <button class="cart">
+                                    <span class="blind">장바구니 추가</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4H2.8132C3.70795 4 4.49383 4.59428 4.73757 5.45519L7.16941 14.0448C7.41315 14.9057 8.19903 15.5 9.09378 15.5H18.1171C19.0329 15.5 19.8316 14.878 20.0561 13.9901L21.3705 8.79014C21.6899 7.52659 20.7348 6.3 19.4315 6.3H15.9767" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9302 19C10.9302 18.1716 10.2586 17.5 9.43018 17.5C8.60175 17.5 7.93018 18.1716 7.93018 19C7.93018 19.8284 8.60175 20.5 9.43018 20.5C10.2586 20.5 10.9302 19.8284 10.9302 19Z" stroke="currentColor"></path><path d="M19.3024 19C19.3024 18.1716 18.6308 17.5 17.8024 17.5C16.9739 17.5 16.3024 18.1716 16.3024 19C16.3024 19.8284 16.9739 20.5 17.8024 20.5C18.6308 20.5 19.3024 19.8284 19.3024 19Z" stroke="currentColor"></path><path d="M11 3.8V8.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.5 6.3H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">다노 힙밴드</p>
+                                <em class="current-sale">
+                                    24%
+                                    <del>22,000</del>
+                                </em>
+                                <span class="price">
+                                    <em>16,800</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/product-thumb3.png" alt="다노 홈트 덤벨 1.3kg, 1개"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                    <span class="new">new</span>
+                                </div>
+                                <button class="cart">
+                                    <span class="blind">장바구니 추가</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4H2.8132C3.70795 4 4.49383 4.59428 4.73757 5.45519L7.16941 14.0448C7.41315 14.9057 8.19903 15.5 9.09378 15.5H18.1171C19.0329 15.5 19.8316 14.878 20.0561 13.9901L21.3705 8.79014C21.6899 7.52659 20.7348 6.3 19.4315 6.3H15.9767" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9302 19C10.9302 18.1716 10.2586 17.5 9.43018 17.5C8.60175 17.5 7.93018 18.1716 7.93018 19C7.93018 19.8284 8.60175 20.5 9.43018 20.5C10.2586 20.5 10.9302 19.8284 10.9302 19Z" stroke="currentColor"></path><path d="M19.3024 19C19.3024 18.1716 18.6308 17.5 17.8024 17.5C16.9739 17.5 16.3024 18.1716 16.3024 19C16.3024 19.8284 16.9739 20.5 17.8024 20.5C18.6308 20.5 19.3024 19.8284 19.3024 19Z" stroke="currentColor"></path><path d="M11 3.8V8.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.5 6.3H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">다노 홈트 덤벨 1.3kg, 1개</p>
+                                <em class="current-sale">
+                                    11%
+                                    <del>18,500</del>
+                                </em>
+                                <span class="price">
+                                    <em>16,900</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/product-thumb4.png" alt="다노 홈트 매트 (미끄럼 방지, 층간 소음 감소)"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                </div>
+                                <button class="cart">
+                                    <span class="blind">장바구니 추가</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4H2.8132C3.70795 4 4.49383 4.59428 4.73757 5.45519L7.16941 14.0448C7.41315 14.9057 8.19903 15.5 9.09378 15.5H18.1171C19.0329 15.5 19.8316 14.878 20.0561 13.9901L21.3705 8.79014C21.6899 7.52659 20.7348 6.3 19.4315 6.3H15.9767" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9302 19C10.9302 18.1716 10.2586 17.5 9.43018 17.5C8.60175 17.5 7.93018 18.1716 7.93018 19C7.93018 19.8284 8.60175 20.5 9.43018 20.5C10.2586 20.5 10.9302 19.8284 10.9302 19Z" stroke="currentColor"></path><path d="M19.3024 19C19.3024 18.1716 18.6308 17.5 17.8024 17.5C16.9739 17.5 16.3024 18.1716 16.3024 19C16.3024 19.8284 16.9739 20.5 17.8024 20.5C18.6308 20.5 19.3024 19.8284 19.3024 19Z" stroke="currentColor"></path><path d="M11 3.8V8.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.5 6.3H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                            <a href="#" class="info-box">
+                                <em class="free-delivery">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-delivery"><path d="M16.1504 7.39453L21.3902 7.39453" stroke="currentColor" stroke-linecap="round"></path><path d="M17.2314 10.168H22.4385" stroke="currentColor" stroke-linecap="round"></path><path d="M4.07812 17.9218H2.91627C2.3056 17.9218 1.81055 17.4268 1.81055 16.8161V12.2799C1.81055 12.0391 1.88912 11.8049 2.03433 11.6129L4.11783 8.85774C4.32682 8.58137 4.65328 8.41895 4.99977 8.41895H7.88768" stroke="currentColor"></path><path d="M7.30464 18.7162C7.30464 17.8002 6.56206 17.0576 5.64605 17.0576C4.73003 17.0576 3.98746 17.8002 3.98746 18.7162C3.98746 19.6322 4.73003 20.3748 5.64605 20.3748C6.56206 20.3748 7.30464 19.6322 7.30464 18.7162Z" stroke="currentColor" stroke-linecap="round"></path><path d="M2.06955 12H5.90504" stroke="currentColor" stroke-linecap="round"></path><path d="M19.4333 4.6875H8.98073C8.37005 4.6875 7.875 5.18255 7.875 5.79323V17.9216" stroke="currentColor" stroke-linecap="round"></path><path d="M18.293 17.9215H19.3814C19.9921 17.9215 20.4871 17.4265 20.4871 16.8158V12.7969" stroke="currentColor" stroke-linecap="round"></path><path d="M18.3279 18.7162C18.3279 17.8002 17.5853 17.0576 16.6693 17.0576C15.7533 17.0576 15.0107 17.8002 15.0107 18.7162C15.0107 19.6322 15.7533 20.3748 16.6693 20.3748C17.5853 20.3748 18.3279 19.6322 18.3279 18.7162Z" stroke="currentColor" stroke-linecap="round"></path><path d="M7.20312 17.9219L14.9497 17.9219" stroke="currentColor"></path></svg>
+                                    무료배송
+                                </em>
+                                <p class="product-name">다노 홈트 매트 (미끄럼 방지, 층간 소음 감소)</p>
+                                <em class="current-sale">
+                                    20%
+                                    <del>98,900</del>
+                                </em>
+                                <span class="price">
+                                    <em>78,400</em>원
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sc-type4">
+                <div class="title-box">
+                    <h2 class="title">멀티프로바이오틱스 최대 50% 할인<img src="./asset/images/pill.png" alt="알약아이폰이모지"></h2>
+                    <p class="desc">인생 유산균 호다닥 쟁여요</p>
+                </div>
+                <div class="group-flex3">
+                    <div class="product-main">
+                        <div class="thumb-box">
+                            <a href=""><img src="./asset/images/probiotics.png" alt="다노 멀티프로바이오틱스"></a>
+                            <div class="badge-box">
+                                <span class="sale">sale</span>
+                            </div>
+                            <button class="cart">
+                                <span class="blind">장바구니 추가</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4H2.8132C3.70795 4 4.49383 4.59428 4.73757 5.45519L7.16941 14.0448C7.41315 14.9057 8.19903 15.5 9.09378 15.5H18.1171C19.0329 15.5 19.8316 14.878 20.0561 13.9901L21.3705 8.79014C21.6899 7.52659 20.7348 6.3 19.4315 6.3H15.9767" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9302 19C10.9302 18.1716 10.2586 17.5 9.43018 17.5C8.60175 17.5 7.93018 18.1716 7.93018 19C7.93018 19.8284 8.60175 20.5 9.43018 20.5C10.2586 20.5 10.9302 19.8284 10.9302 19Z" stroke="currentColor"></path><path d="M19.3024 19C19.3024 18.1716 18.6308 17.5 17.8024 17.5C16.9739 17.5 16.3024 18.1716 16.3024 19C16.3024 19.8284 16.9739 20.5 17.8024 20.5C18.6308 20.5 19.3024 19.8284 19.3024 19Z" stroke="currentColor"></path><path d="M11 3.8V8.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.5 6.3H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            </button>
+                        </div>
+                        <a href="#" class="info-box">
+                            <p class="product-name">다노 멀티프로바이오틱스</p>
+                            <span class="price">
+                                <em class="current-sale">35%</em>
+                                <span>45,000</span>원
+                                <del>29,000</del>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-type3">
+                <div class="title-box">
+                    <h2 class="title">3개월간 가장 많이 찾아주신 제품</h2>
+                    <p class="desc">사랑받는 이유가 있어요<img src="./asset/images/purplelove.png" alt="보라색하트아이폰이모지"></p>
+                    <a href="#" class="link-more">
+                        <span class="blind">바로가기</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.00001 3.99999L17 12L9.00001 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    </a>
+                </div>
+                <div class="group-flex3">
+                    <ul class="product-list">
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/food-thumb1.png" alt="11시45분 비건김밥(냉동) 3종"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                    <span class="new">new</span>
+                                </div>
+                                <button class="cart">
+                                    <span class="blind">장바구니 추가</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4H2.8132C3.70795 4 4.49383 4.59428 4.73757 5.45519L7.16941 14.0448C7.41315 14.9057 8.19903 15.5 9.09378 15.5H18.1171C19.0329 15.5 19.8316 14.878 20.0561 13.9901L21.3705 8.79014C21.6899 7.52659 20.7348 6.3 19.4315 6.3H15.9767" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9302 19C10.9302 18.1716 10.2586 17.5 9.43018 17.5C8.60175 17.5 7.93018 18.1716 7.93018 19C7.93018 19.8284 8.60175 20.5 9.43018 20.5C10.2586 20.5 10.9302 19.8284 10.9302 19Z" stroke="currentColor"></path><path d="M19.3024 19C19.3024 18.1716 18.6308 17.5 17.8024 17.5C16.9739 17.5 16.3024 18.1716 16.3024 19C16.3024 19.8284 16.9739 20.5 17.8024 20.5C18.6308 20.5 19.3024 19.8284 19.3024 19Z" stroke="currentColor"></path><path d="M11 3.8V8.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.5 6.3H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">11시45분 비건김밥(냉동) 3종</p>
+                                <span class="price">
+                                    <em>3,900</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/food-thumb2.png" alt="옐로욜로 카카오칩"></a>
+                                <div class="badge-box">
+                                    <span class="new">new</span>
+                                </div>
+                                <button class="cart">
+                                    <span class="blind">장바구니 추가</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4H2.8132C3.70795 4 4.49383 4.59428 4.73757 5.45519L7.16941 14.0448C7.41315 14.9057 8.19903 15.5 9.09378 15.5H18.1171C19.0329 15.5 19.8316 14.878 20.0561 13.9901L21.3705 8.79014C21.6899 7.52659 20.7348 6.3 19.4315 6.3H15.9767" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9302 19C10.9302 18.1716 10.2586 17.5 9.43018 17.5C8.60175 17.5 7.93018 18.1716 7.93018 19C7.93018 19.8284 8.60175 20.5 9.43018 20.5C10.2586 20.5 10.9302 19.8284 10.9302 19Z" stroke="currentColor"></path><path d="M19.3024 19C19.3024 18.1716 18.6308 17.5 17.8024 17.5C16.9739 17.5 16.3024 18.1716 16.3024 19C16.3024 19.8284 16.9739 20.5 17.8024 20.5C18.6308 20.5 19.3024 19.8284 19.3024 19Z" stroke="currentColor"></path><path d="M11 3.8V8.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.5 6.3H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">옐로욜로 카카오칩</p>
+                                <span class="price">
+                                    <em>3,000</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/food-thumb3.png" alt="다노 프로틴 브라우니 1BOX (5개입)"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                </div>
+                                <button class="cart">
+                                    <span class="blind">장바구니 추가</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4H2.8132C3.70795 4 4.49383 4.59428 4.73757 5.45519L7.16941 14.0448C7.41315 14.9057 8.19903 15.5 9.09378 15.5H18.1171C19.0329 15.5 19.8316 14.878 20.0561 13.9901L21.3705 8.79014C21.6899 7.52659 20.7348 6.3 19.4315 6.3H15.9767" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9302 19C10.9302 18.1716 10.2586 17.5 9.43018 17.5C8.60175 17.5 7.93018 18.1716 7.93018 19C7.93018 19.8284 8.60175 20.5 9.43018 20.5C10.2586 20.5 10.9302 19.8284 10.9302 19Z" stroke="currentColor"></path><path d="M19.3024 19C19.3024 18.1716 18.6308 17.5 17.8024 17.5C16.9739 17.5 16.3024 18.1716 16.3024 19C16.3024 19.8284 16.9739 20.5 17.8024 20.5C18.6308 20.5 19.3024 19.8284 19.3024 19Z" stroke="currentColor"></path><path d="M11 3.8V8.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.5 6.3H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">다노 프로틴 브라우니 1BOX (5개입)</p>
+                                <em class="current-sale">
+                                    3%
+                                    <del>16,500</del>
+                                </em>
+                                <span class="price">
+                                    <em>16,000</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/food-thumb4.png" alt="다노 닭가슴살 큐브 3종 (오리지널, 청양고추, 허브)"></a>
+                                <button class="cart">
+                                    <span class="blind">장바구니 추가</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 4H2.8132C3.70795 4 4.49383 4.59428 4.73757 5.45519L7.16941 14.0448C7.41315 14.9057 8.19903 15.5 9.09378 15.5H18.1171C19.0329 15.5 19.8316 14.878 20.0561 13.9901L21.3705 8.79014C21.6899 7.52659 20.7348 6.3 19.4315 6.3H15.9767" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9302 19C10.9302 18.1716 10.2586 17.5 9.43018 17.5C8.60175 17.5 7.93018 18.1716 7.93018 19C7.93018 19.8284 8.60175 20.5 9.43018 20.5C10.2586 20.5 10.9302 19.8284 10.9302 19Z" stroke="currentColor"></path><path d="M19.3024 19C19.3024 18.1716 18.6308 17.5 17.8024 17.5C16.9739 17.5 16.3024 18.1716 16.3024 19C16.3024 19.8284 16.9739 20.5 17.8024 20.5C18.6308 20.5 19.3024 19.8284 19.3024 19Z" stroke="currentColor"></path><path d="M11 3.8V8.8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.5 6.3H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">다노 닭가슴살 큐브 3종 (오리지널, 청양고추, 허브)</p>
+                                <span class="price">
+                                    <em>1,870</em>원
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div class="banner-area">
+                <a href="#" class="link-banner">
+                    <img src="./asset/images/banner-thumb2.png" alt="지금 가입하고 10% 할인쿠폰 받으세요">
+                </a>
+            </div>
+            <section class="sc-type5">
+                <div class="title-box">
+                    <h2 class="title">후기 5천개 넘는 검증템</h2>
+                    <p class="desc">후기 읽다 홀린듯이 구입해요</p>
+                    <a href="#" class="link-more">
+                        <span class="blind">바로가기</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.00001 3.99999L17 12L9.00001 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    </a>
+                </div>
+                <div class="group-flex3">
+                    <ul class="product-list">
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/food-thumb5.png" alt="다노 플랜트베이스드 채식도시락"></a>
+                                <div class="badge-box">
+                                    <span class="new">new</span>
+                                </div>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">다노 플랜트베이스드 채식도시락</p>
+                                <span class="price">
+                                    <em>45,000</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/food-thumb6.png" alt="캐시밸리 프로볼로네 치즈"></a>
+                                <div class="badge-box">
+                                    <span class="new">new</span>
+                                </div>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">캐시밸리 프로볼로네 치즈</p>
+                                <span class="price">
+                                    <em>6,800</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/food-thumb7.png" alt="황지네이처 보현산 유기농 사과주스"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                    <span class="new">new</span>
+                                </div>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">황지네이처 보현산 유기농 사과주스</p>
+                                <span class="price">
+                                    <em>39,000</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/food-thumb8.png" alt="황지네이처 유기농 양배추즙"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                    <span class="new">new</span>
+                                </div>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">황지네이처 유기농 양배추즙</p>
+                                <span class="price">
+                                    <em>18,800</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/food-thumb9.png" alt="파오리 유기농 버터"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                </div>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">파오리 유기농 버터</p>
+                                <em class="current-sale">
+                                    25%
+                                    <del>8,000</del>
+                                </em>
+                                <span class="price">
+                                    <em>6,000</em>원
+                                </span>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <div class="thumb-box">
+                                <a href="#"><img src="./asset/images/food-thumb10.png" alt="퀘스크렘 라이트 크림치즈"></a>
+                                <div class="badge-box">
+                                    <span class="sale">sale</span>
+                                    <span class="new">new</span>
+                                </div>
+                            </div>
+                            <a href="#" class="info-box">
+                                <p class="product-name">퀘스크렘 라이트 크림치즈</p>
+                                <span class="price">
+                                    <em>5,900</em>원
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div class="banner-area">
+                <a href="#" class="link-banner">
+                    <img src="./asset/images/banner-thumb3.png" alt="다노샵 배송 정책 새벽,택배,개별배송 모아보기">
+                </a>
+            </div>
+            <section class="sc-recipe">
+                <div class="title-box">
+                    <h2 class="title">다노블리의 3분 레시피</h2>
+                    <p class="desc">식단 관리 만렙 고객들이 직접 전수해 주는 꿀팁</p>
+                    <a href="#" class="link-more">
+                        <span class="blind">바로가기</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.00001 3.99999L17 12L9.00001 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    </a>
+                </div>
+                <div class="slide slide2">
+                    <div class="content">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb1.png" alt="홍시 쌀 크로와상 샌드위치">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">홍시 쌀 크로와상 샌드위치</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb2.png" alt="면 땡길 땐  샐러드 곁들인 곤약비빔면">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">면 땡길 땐 샐러드 곁들인 곤약비빔면</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb3.png" alt="쉬림프 아보카도 치아바타  샌드위치">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">쉬림프 아보카도 치아바타 샌드위치</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb4.png" alt="탄단지 완벽한 오븐치킨 잡곡밥 보울">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">탄단지 완벽한 오븐치킨 잡곡밥 보울</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb5.png" alt="올리브 콕콕 박힌 통밀 치아바타 파니니">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">올리브 콕콕 박힌 통밀 치아바타 파니니</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb6.png" alt="브라오를 활용한 낫또 두부면 파스타">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">브라오를 활용한 낫또 두부면 파스타</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb7.png" alt="새우리조또">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">새우리조또</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb8.png" alt="자작자작 컵누들 순두부">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">"자작자작 컵누들 순두부</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb9.png" alt="다노 컵누들로 만든 리얼 팟타이">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">다노 컵누들로 만든 리얼 팟타이</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb10.png" alt="초코범벅 크로와상">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">초코범벅 크로와상</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb11.png" alt="부담없는 치즈 떡볶이">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">부담없는 치즈 떡볶이</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb12.png" alt="가지 양념밥">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">가지 양념밥</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb13.png" alt="두부바 쌀국수">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">두부바 쌀국수</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb14.png" alt="당충전 빵빵 다노 아침식사">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">당충전 빵빵 다노 아침식사</p>
+                                            <span class="id">@ohhyerim</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/recipe-thumb15.png" alt="다노 상품으로 만든 다이어터 한 끼 메뉴">
+                                        <div class="info-box">
+                                            <p class="recipe-tit">다노 상품으로 만든 다이어터 한 끼 메뉴</p>
+                                            <span class="more">더 보러 가기</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-scrollbar"></div>
+                            <button class="btn prev"><span class="blind">이전</span><svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 3.99999L6.99997 12L15 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+                            <button class="btn next"><span class="blind">다음</span>
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.00001 3.99999L17 12L9.00001 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="banner-area">
+                <a href="#" class="link-banner">
+                    <img src="./asset/images/banner-thumb4.png" alt="다노샵을 소개해요">
+                </a>
+            </div>
+            <div class="banner-area">
+                <a href="#" class="link-banner">
+                    <img src="./asset/images/banner-thumb5.png" alt="지구를 생각하는 다노샵의 작은 노력">
+                </a>
+            </div>
+            <div class="fixed-area">
+                <div class="fixed-box">
+                    <a href="#" class="btn-top">
+                        <span class="blind">최상단으로</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3.91181L12 20.9118" stroke="currentColor" stroke-linecap="round"></path><path d="M5.63603 9.36396L12 3L18.364 9.36396" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="banner-area">
+                <a href="#" class="link-banner">
+                    <img src="./asset/images/banner-thumb6.png" alt="올해의 브랜드 대상 3년 연속 수상 저칼로리 대용식 부문 1위 온라인PT 서비스 부문 1위">
+                </a>
+            </div>
+            <section class="sc-help">
+                <h2 class="blind">채팅 및 상담</h2>
+                <div class="group-flex5">
+                    <span class="title">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 24px; height: 24px; margin-top: 2px;"><path d="M10.9949 19H8.3639C7.06437 19 6 17.986 6 16.7459V9.72089C6 6.57474 8.70013 4 12.0005 4C15.2999 4 18 6.57474 18 9.72089V16.5" stroke="currentColor"></path><path d="M18 10H19C20.1046 10 21 10.8954 21 12V14C21 15.1046 20.1046 16 19 16H18" stroke="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M13.7431 19.002C13.7431 19.8437 13.0599 20.5269 12.2181 20.5269C11.3764 20.5269 10.6932 19.8437 10.6932 19.002C10.6932 18.1602 11.3764 17.477 12.2181 17.477C13.0599 17.477 13.7431 18.1602 13.7431 19.002Z" stroke="currentColor"></path><path d="M6 10H5C3.89543 10 3 10.8954 3 12V14C3 15.1046 3.89543 16 5 16H6" stroke="currentColor"></path></svg>
+                        무엇을 도와드릴까요?
+                    </span>
+                    <p class="desc">
+                        평일 10:00 ~ 18:00 (주말 및 공휴일 휴무)
+                        <br>
+                        점심시간 12:30 ~ 13:30
+                    </p>
+                </div>
+                <div class="group-flex6">
+                    <span class="title">다노샵</span>
+                    <ul class="chat-list">
+                        <li class="chat-item">
+                            <a href="#">채팅상담 종료</a>
+                        </li>
+                        <li class="chat-item">
+                            <a href="#">문의 글 남기기</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="group-flex7">
+                    <span class="title">다노핏/다노핏코치</span>
+                    <ul class="chat-list">
+                        <li class="chat-item">
+                            <a href="#">문의 글 남기기</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+            <!-- @ flex가적당-->
+            <div class="group-flex8">
+                <section class="sc-sns">
+                    <h2 class="title">다노 채널</h2>
+                    <ul class="sns-list">
+                        <li class="sns-item">
+                            <a href="#" class="link-sns youtube"><span class="blind">유튜브</span></a>
+                        </li>
+                        <li class="sns-item">
+                            <a href="#" class="link-sns instagram"><span class="blind">인스타그램</span></a>
+                        </li>
+                        <li class="sns-item">
+                            <a href="#" class="link-sns blog"><span class="blind">블로그</span></a>
+                        </li>
+                        <li class="sns-item">
+                            <a href="#" class="link-sns facebook"><span class="blind">페이스북</span></a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="sc-ask">
+                    <h2 class="title">제휴/입점문의</h2>
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <a href="mail:danoshop.md@gmail.com">입점 제안 문의 (danoshop.md@gmail.com)</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="mail:dano.mkt@gmail.com">마케팅 제휴 문의 (dano.mkt@gmail.com)</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="sc-login">
+                    <a href="#" class="link-login">로그인</a>
+                </section>
+            </div>
+            <div class="group-flex9">
+                <div class="corp-area">
+                    <ul class="corp-list">
+                        <li class="corp-item">
+                            <a href="#">통합 약관</a>
+                        </li>
+                        <li class="corp-item">
+                            <a href="#">이용 약관</a>
+                        </li>
+                        <li class="corp-item">
+                            <a href="#">개인정보처리방침</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="addr-area">
+                    <p>
+                        대표:정범윤 | 주소:서울시 마포구 토정로 271 (주)다노
+                        <br>
+                        사업자등록번호:106-87-00202 <a href="#">사업자 정보 확인</a>
+                        <br>
+                        개인정보보호책임자:이지수
+                        <br>
+                        통신판매업 신고번호:제2017-마포-0722
+                        <br>
+                        건강기능식품판매업 신고번호:제 2018-0069040호
+                        <br>
+                        Copyright © DANO, Inc. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="download-area">
+                    <a href="#" class="link-ios">
+                        App Store 
+                    </a>
+                    <a href="#" class="link-playstore">
+                        Google Play
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./asset/js/custom.js"></script>
+</body>
+</html>

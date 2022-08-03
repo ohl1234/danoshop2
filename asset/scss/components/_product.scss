@@ -1,0 +1,88 @@
+.product-main,
+.product-item{
+    .thumb-box{
+        position: relative;
+        img{
+            border-radius: 12px;
+        }
+    }
+    .badge-box{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .sale{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 18px;
+        padding: 4px;
+        margin-right: 4px;
+        line-height: 11px;
+        font-size: 11px;
+        font-weight: 700;
+        border-radius: 4px;
+        text-transform: uppercase;
+        color: $colors-white;
+        background-color: $colors-coral150;
+    }
+    .new{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 18px;
+        padding: 4px;
+        line-height: 11px;
+        font-size: 11px;
+        font-weight: 700;
+        border-radius: 4px;
+        text-transform: uppercase;
+        color: $colors-coral100;
+        background-color: $colors-coral10;
+    }
+    .cart{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+        border-radius: 50%;
+        color: $colors-white;
+        box-shadow:  0px 0px 2px rgba(0, 0, 0, 0.1);
+        background-color: rgba($color: #000000, $alpha: 0.6);
+    }
+    .info-box{
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .free-delivery{
+        display: flex;
+        font-size: 13px;
+        line-height: 160%;
+        color: $colors-gray6;
+    }
+    .current-sale{
+        color: $colors-coral100;
+        font-weight: 700;
+        del{
+            color: $colors-gray6;
+            font-weight: 400;
+        }
+    }
+    .product-name{
+        color: $colors-gray8;
+        font-weight: 500;
+    }
+    .price{
+        em{
+            font-weight: 700;
+            margin-right: 2px;
+            color: $colors-gray8;
+            .sc-type4 &{
+                color: $colors-coral100;
+            }
+        }
+    }
+}

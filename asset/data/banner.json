@@ -1,0 +1,19 @@
+{
+    "banner":[
+        {
+            "url" : "#",
+            "imgSrc" : "./asset/images/main-slide1.png",
+            "alt" : "바쁜 현대인을 위한 한 끼 쉽고 간편하게 도시락 드세요"
+        },
+        {
+            "url" : "#",
+            "imgSrc" : "./asset/images/main-slide2.png",
+            "alt" : "바쁜 현대인을 위한 한 끼 쉽고 간편하게 도시락 드세요"
+        },
+        {
+            "url" : "#",
+            "imgSrc" : "./asset/images/main-slide3.png",
+            "alt" : "바쁜 현대인을 위한 한 끼 쉽고 간편하게 도시락 드세요"
+        }
+    ]
+}
