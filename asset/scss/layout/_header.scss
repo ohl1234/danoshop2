@@ -162,7 +162,7 @@
             display: block;
             width: 30px;
             height: 46px;
-            background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0) 50%, $colors-white);
+            background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.5) 50%, $colors-white);
         }
     }
     .gnb-list{
