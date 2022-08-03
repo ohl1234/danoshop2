@@ -1095,7 +1095,8 @@ input, select, button, fieldset {
   bottom: 24px;
   left: 20px;
   z-index: 3;
-  width: 414px;
+  display: flex;
+  flex-direction: column;
   color: #FFFFFF;
 }
 .sc-recipe .recipe-tit {

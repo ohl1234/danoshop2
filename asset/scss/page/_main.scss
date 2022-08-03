@@ -245,7 +245,8 @@
         bottom: 24px;
         left: 20px;
         z-index: 3;
-        width: 414px;
+        display: flex;
+        flex-direction: column;
         color: $colors-white;
     }
     .recipe-tit{
