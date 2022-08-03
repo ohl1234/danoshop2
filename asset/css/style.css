@@ -1072,6 +1072,7 @@ input, select, button, fieldset {
 }
 .sc-recipe .swiper-slide a {
   position: relative;
+  display: flex;
 }
 .sc-recipe .swiper-slide a::after {
   content: "";
@@ -1084,8 +1085,11 @@ input, select, button, fieldset {
   z-index: 2;
   width: 100%;
   height: 100%;
+  inset: 0px;
+  transform: translate3d(0px, 0px, 0px);
   border-radius: 24px;
-  background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: rgba(0, 0, 0, 0) linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%) repeat scroll 0% 0%;
+  z-index: 1;
 }
 .sc-recipe .swiper-slide img {
   width: 100%;
