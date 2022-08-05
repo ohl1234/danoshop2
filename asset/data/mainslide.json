@@ -1,0 +1,49 @@
+{
+    "mainSlide":[
+        {
+            "url" : "#",
+            "imgSrc" : "./asset/images/main-slide1.png",
+            "alt" : "바쁜 현대인을 위한 한 끼 쉽고 간편하게 도시락 드세요"
+        },
+        {
+            "url" : "#",
+            "imgSrc" : "./asset/images/main-slide2.png",
+            "alt" : "나와 지구의 건강을 생각해요 맛있어서 추천하는 다노 비건식 모음"
+        },
+        {
+            "url" : "#",
+            "imgSrc" : "./asset/images/main-slide3.png",
+            "alt" : "간단하고 맛있는 레시피까지! 제철이 체질 7월:복숭아편"
+        },
+        {
+            "url" : "#",
+            "imgSrc" : "./asset/images/main-slide4.png",
+            "alt" : "다노의 서비스를 기획하는 PM팀 크루의 자꾸 손이 가는 추천템"
+        },
+        {
+            "url" : "#",
+            "imgSrc" : "./asset/images/main-slide5.png",
+            "alt" : "CLEAERANCE SALE 할인할 때  빨리 살템 망설일 시간에 클릭!"
+        },
+        {
+            "url" : "#",
+            "imgSrc" : "./asset/images/main-slide6.png",
+            "alt" : "신입 다노블리를 위한 첫 구매 추천템"
+        },
+        {
+            "url" : "#",
+            "imgSrc" : "./asset/images/main-slide7.png",
+            "alt" : "딩동! 당근과 채찍 후기 도착~ 솔직 후기 남겨주면 만 원 쿠폰 드려요!"
+        },
+        {
+            "url" : "#",
+            "imgSrc" : "./asset/images/main-slide8.png",
+            "alt" : "구매 금액대별 번개 지급까지! CHAI 1만원 이상 첫 결제 2,000원 즉시 할인"
+        },
+        {
+            "url" : "#",
+            "imgSrc" : "./asset/images/main-slide9.png",
+            "alt" : "더울수록 잘 챙겨드세요 밥 차리기 귀찮을 때 가볍게 한 끼 뚝딱!"
+        }
+    ]
+}

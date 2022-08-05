@@ -5,7 +5,7 @@
             "url":"#",
             "thumbImg":"./asset/images/veganbox.png",
             "freeDelivery":true,
-            "new":true,
+            "new":false,
             "sale":true,
             "prdName":"다노 플랜트베이스드 채식도시락",
             "priceOrigin": "45,000",
@@ -15,40 +15,40 @@
     ],
     "veganList":[
         {
-            "no":1,
+            "no":3,
             "url":"#",
             "thumbImg":"./asset/images/lunchbox-thumb1.png",
-            "freeDelivery":true,
-            "new":true,
+            "freeDelivery":false,
+            "new":false,
             "sale":true,
-            "prdName":"다노 플랜트베이스드 채식도시락",
-            "priceOrigin": "45,000",
-            "priceCurrent":"30,000",
-            "priceDiscount":"14%"
+            "prdName":"다노 다노한끼 컬리플라워 도시락",
+            "priceOrigin": "34,500",
+            "priceCurrent":"30,360",
+            "priceDiscount":"12%"
         },
         {
-            "no":1,
+            "no":4,
             "url":"#",
             "thumbImg":"./asset/images/lunchbox-thumb2.png",
-            "freeDelivery":true,
-            "new":true,
+            "freeDelivery":false,
+            "new":false,
             "sale":true,
-            "prdName":"다노 플랜트베이스드 채식도시락",
-            "priceOrigin": "45,000",
-            "priceCurrent":"30,000",
-            "priceDiscount":"14%"
+            "prdName":"다노 다노한끼 닭가슴살 도시락",
+            "priceOrigin": "30,100",
+            "priceCurrent":"27,900",
+            "priceDiscount":"7%"
         },
         {
             "no":1,
             "url":"#",
             "thumbImg":"./asset/images/lunchbox-thumb3.png",
-            "freeDelivery":true,
-            "new":true,
+            "freeDelivery":false,
+            "new":false,
             "sale":true,
-            "prdName":"다노 플랜트베이스드 채식도시락",
-            "priceOrigin": "45,000",
-            "priceCurrent":"30,000",
-            "priceDiscount":"14%"
+            "prdName":"다노 다노한끼 시즌4 저당 곤약 도시락",
+            "priceOrigin": "31,500",
+            "priceCurrent":"29,800",
+            "priceDiscount":"5%"
         }
     ]
 }
