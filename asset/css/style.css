@@ -987,6 +987,9 @@ input, select, button, fieldset {
   display: block;
   padding: 0 20px;
 }
+.banner-area .mobile {
+  display: none;
+}
 
 .sc-type3 {
   padding: 20px 0;
@@ -1173,4 +1176,22 @@ input, select, button, fieldset {
 }
 .sc-recipe .btn:hover {
   opacity: 1;
+}
+
+@media (max-width: 639px) {
+  .sc-type1 .product-item,
+.sc-type4 .product-item,
+.sc-type5 .product-item {
+    width: calc((100% - 20px) / 3);
+  }
+  .sc-type2 .product-item,
+.sc-type3 .product-item {
+    width: calc((100% - 10px) / 2);
+  }
+  .banner-area .pc {
+    display: none;
+  }
+  .banner-area .mobile {
+    display: block;
+  }
 }

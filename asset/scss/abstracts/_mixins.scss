@@ -27,3 +27,11 @@
     border: 0px;
     background-color: transparent;
 }
+
+$moblie:639px;
+
+@mixin mobile {
+    @media (max-width:$moblie){
+        @content;
+    }
+}

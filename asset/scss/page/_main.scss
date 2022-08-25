@@ -113,6 +113,9 @@
         display: block;
         padding: 0 20px;
     }
+    .mobile{
+        display: none;
+    }
 }
 
 .sc-type3{
@@ -302,6 +305,30 @@
         }
         &:hover{
             opacity: 1;
+        }
+    }
+}
+
+@include mobile{
+    .sc-type1,
+    .sc-type4,
+    .sc-type5{
+        .product-item{
+            width: calc((100% - 20px) / 3);
+        }
+    }
+    .sc-type2,
+    .sc-type3{
+        .product-item{
+            width: calc((100% - 10px) / 2);
+        }
+    }
+    .banner-area{
+        .pc{
+            display: none;
+        }
+        .mobile{
+            display: block;
         }
     }
 }
